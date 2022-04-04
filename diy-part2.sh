@@ -11,7 +11,7 @@
 #
 
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.1.3/g' package/base-files/files/bin/config_generate
 
 # 2.清除默认密码/改密码为 
 sed -i 's@.*CYXluq4wUazHjmCDBCqXF*@#&@g' package/lean/default-settings/files/zzz-default-settings
